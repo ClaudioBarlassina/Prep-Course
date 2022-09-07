@@ -14,6 +14,17 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+  
+
+  if (18 <= edad) {
+    console.log("Allowed");
+    
+  }else{
+    console.log("Not allowed");
+   
+
+  }
+
 }
   
 function conection(status) {
@@ -22,6 +33,17 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+if (1 === status) {
+  console.log("Online");
+  
+} else if (2 === status){
+  console.log("Away");
+}else{
+  console.log("Offline");
+
+}
+
+
 }
 
 function saludo(idioma) {
@@ -31,6 +53,19 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  switch (idioma) {
+    case "aleman":
+      console.log("Guten Tag!");
+      break;
+      case "mandarin":
+        console.log("Ni Hao");
+        break;
+        case "ingles":
+        console.log("hello!");
+        break;
+    default:
+      break;
+  }
 }
 
 function colors(color) {
@@ -41,18 +76,51 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+switch (color) {
+  case "blue":
+    console.log("this is blue");
+    break;
+    case "red":
+      console.log("this is red");
+
+      case "green":
+      console.log("this is green");
+
+      case "orange":
+        console.log("this is orange");
+      
+      
+  default:
+    console.log("color not found");
+    break;
+}
+
+
 }
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (numero === 10 || numero === 5 ) {
+    console.log("true");
+  }else{
+
+    console.log("false");
+  }
 }
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (numero <50 && numero > 20) {
+    console.log("true");
+  }else{
+
+    console.log("false");
+  }
+
 }
 
 function esEntero(numero) {
@@ -63,6 +131,9 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+ Math.
+
+
 }
 
 function fizzBuzz(numero) {
