@@ -182,8 +182,8 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  if (n<=1) return false;
-  for (var i = 2; i <= numero+1;  i++) {
+  if (numero == 0|| numero == 1 || numero == 4) return false;
+  for (var i = 2; i <= numero /2;  i++) {
   if (numero % i==0) {
     return true;
   }
@@ -197,6 +197,11 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
+ if (valor="true") {
+  console.log("Soy verdadero");
+ }else{
+  console.log("Soy Falso");
+ }
 
 }
 
@@ -204,7 +209,8 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
+  const tabla6 = [0 , 6 , 12 , 18 , 24 , 30 , 36 , 42 , 48 , 54 , 60 ];
+  console.log(tabla6);
 }
 
 function tieneTresDigitos(numero){
