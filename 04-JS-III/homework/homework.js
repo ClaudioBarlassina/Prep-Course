@@ -3,20 +3,30 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  const nombres = ["claudio","martin","francisco","leopoldo"];
+  var array = console.log(nombres[0]);
+  return array;
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  const nombres = ["marcos","cristian","lucas"];
+  var array = console.log(nombres[2]);
+  return array;
+
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-}
+  const objetos = ["platos","vasos","cubiertos","tazas"];
+  var array = console.log(objetos.length);
+  return array;
 
+}
 
 function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
@@ -30,6 +40,10 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+
+  const agregados = ["carlos","fabian"];
+  agregados.push(array);
+  console.log(agregados);
 }
 
 
