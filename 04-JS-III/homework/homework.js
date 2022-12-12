@@ -41,8 +41,8 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // y devuelve el array
   // Tu código:
 
-  const agregados = ["carlos","fabian"];
-  agregados.push(array);
+  var agregados = [];
+  agregados.push(elemento);
   console.log(agregados);
 }
 
