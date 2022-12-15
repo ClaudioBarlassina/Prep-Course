@@ -162,7 +162,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var eleva = (num)*exponent;
+  var eleva = num*exponent;
   return eleva;
 }
 
