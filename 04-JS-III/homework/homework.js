@@ -4,7 +4,7 @@ function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
 
-  return array;
+  return array[0];
 }
 
 
@@ -67,7 +67,14 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+ const array =[];
+ array.push(palabras);
 
+ for (let i = 0; i < array.length; i++) {
+  const element = array[i];
+  return String(element);
+ } 
+ 
 
 }
 
@@ -93,15 +100,18 @@ function agregarNumeros(numeros) {
   // Tu código:
 
 
-  var suma = 0;
-  for (var i =0 ;i<numero.length; i++){
+  var arrayEn = [];
+  arrayEn.push(numeros);
+  for (var i =0 ; i < arrayEn.length; i++){
+    
 
-    suma = suma + numero[i];
+    
   }
 
-return suma;
+return element;
 
 }
+
 
 
 function promedioResultadosTest(resultadosTest) {
