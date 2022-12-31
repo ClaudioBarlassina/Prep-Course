@@ -34,5 +34,13 @@
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-highlightjs": "^3.5.0",
     "simple-git": "^2.45.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioBarlassina/Prep-Course.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ClaudioBarlassina/Prep-Course/issues"
+  },
+  "homepage": "https://github.com/ClaudioBarlassina/Prep-Course#readme"
 }

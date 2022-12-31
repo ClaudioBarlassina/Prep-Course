@@ -6,11 +6,28 @@
 
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
- * Variables
+ * Variables:
+
+Son espacios asignados con un nombre donde se puede guardar un dato, como si fuese una hoja en blanco donde poder escribir y guardar un dato momentaneamente
+
  * Strings
+
+tipo de dato que corresponde a las letras
+
+
  * Funciones (argumentos, `return`)
+
+Son tareas asignadas por nosotros para que el sistema realice una determinada accion en el sistema o que nos devuelva un determinado dato que nos puede ser util para nosotros
+Les podemos dar un dato atravez de los "argumentos" y con el "return " recibir lo que necesitamos
+
+
  * Declaraciones `if`
+
+Son intrucciones que se realizan segun una condicion, si esta condicion se cumple realiza una tarea especifica sino realiza otra 
+
  * Valores booleanos (`true`, `false`)
+
+ Son valores que se utilizan para darle instruccion a una tarea 
 
 2. Instalar Node y NPM. NPM se incluye con Node. <https://nodejs.org/en/download/>
 

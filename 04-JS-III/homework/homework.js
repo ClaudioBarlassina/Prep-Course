@@ -67,7 +67,17 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+
 return palabras.join(" ");
+const array =[];
+ array.push(palabras);
+
+ for (let i = 0; i < array.length; i++) {
+  const element = array[i];
+  return String(element);
+ } 
+ 
+
 
 }
 
@@ -94,11 +104,26 @@ function agregarNumeros(numeros) {
 var suma = 0;
 for(i = 0 ; i< numeros.length; i++){
 
+
   suma = suma + numeros[i];
   
+
+
+  var arrayEn = [];
+  arrayEn.push(numeros);
+  for (var i =0 ; i < arrayEn.length; i++){
+    
+
+    
+  }
+
+return element;
+
+
 }
 return suma;
   }
+
 
 
 function promedioResultadosTest(resultadosTest) {
